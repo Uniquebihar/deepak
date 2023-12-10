@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+    <style>
+      dl{
+        display: grid;
+        grid-template-columns: 6fr6fr;
+      }
+      dt{
+        background-color: black;
+        color: white;
+        margin-top: 5px;
+      }
+      dd{
+        background-color: yellow;
+        margin-top: 5px;
+        color: blue;
+      }
+      fieldset{
+        margin-top: 5px;
+        box-shadow: 4pc4px3px black;
+
+      }
+      legend{
+        border: 1px solid black;
+        width: 150px;
+    text-align: center;
+        box-shadow: 2px2px3px red;
+      }
+    </style>
+</head>
+<body>
+  <fieldset>
+        <legend>Personal Details</legend>
+        <dl>
+            <dt>Name</dt>
+            <dd>some Name</dd>
+            <dt>Age</dt>
+            <dd>some Number</dd>
+            <dt>Date of birth</dt>
+            <dd>some date</dd>
+       
+        </dl>
+  </fieldset>
+  <fieldset>
+    <legend>Address</legend>
+    <dl>
+        <dt>city</dt>
+        <dd>some name</dd>
+        <dt>postal code</dt>
+        <dd>some code</dd>
+    </dl>
+  </fieldset>
+    
+</body>
+</html>

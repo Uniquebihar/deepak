@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak: Developer - portfolio</title>
+    <link rel="stylesheet"  href="Styles.css">
+    <link rel="stylesheet"  href="home.html">
+    <link rel="stylesheet"  href="about.html">
+    <link rel="stylesheet"  href="services.html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<style>
+    .responsive{
+      width : 100%;
+      height : auto;
+    }
+  </style>
+  </head>
+<body>
+   <header>
+    <nav class="responsive"><div >
+      <div class="left" style="color: white;">Deepak Singh Portfolio</div>
+      <div class="right">
+        <ul>
+       <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+              <li><a href="services.html">Services</a></li>
+             <li><a href="https://docs.google.com/document/d/1o4pjmnZeIozCWKyvnyXH5Tf0v_vZc0n8/edit">Download CV</a></li>
+             <li><a href="https://github.com/Uniquebihar">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    </header>
+   <main>
+      <section class="firstSection">
+        <div class="leftSection" style="font-weight: bold;">
+        Hi ,My name is <span class="purple">Deepak</span> Singh.
+        <div>And I am a passionate</div>
+        <div> Full Stack java developer</div>
+        <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="deepak.jpg" alt="" class="img-responsive" alt=" ">
+        </div>
+      </section>
+          </main>
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed('#element', {
+              strings: ['<i>Java</i> Developer".', '&amp; web developer.'],
+              typeSpeed: 50,
+            });
+          </script>
+
+
+
+    <div class="foot-panel13"></div>
+      <div class="skills-section">
+          <h class="foot-panel7">Welcome to my skills-section:</h>
+       </div>
+     <div class="foot-panel13"></div>
+
+    <div class="wrapper">
+        <div class="slideshow-container">
+    
+<div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="HTML.jpg" style="width:50%">
+    <div class="text">Caption One</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="css.png" style="width:50%">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="javascript.png" style="width:50%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="core-java.jpg" style="width:50%">
+    <div class="text">Caption Four</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="advance-java.png" style="width:50%">
+    <div class="text">Caption Five</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="oracle.webp" style="width:50%">
+    <div class="text">Caption Six</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7/ 10</div>
+    <img src="spring-boot.png" style="width:50%">
+    <div class="text">Caption Seven</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">8/ 10</div>
+    <img src="dev-ops.png" style="width:50%">
+    <div class="text">Caption Eight</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="selenium.jpg" style="width:50%">
+    <div class="text">Caption Nine</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10/ 10</div>
+    <img src="dsa.png" style="width:50%">
+    <div class="text">Caption Ten</div>
+  </div>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+            
+          
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+      </div>
+   
+        <div class="foot-panel1">
+Welcome to my address & contact details:
+        </div>
+
+<footer>
+	<div class="footer-dark">
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 item">
+							<h3 style="color: black;">Address></h3>
+							<ul>
+								<li><a href="#" style="color: black;">Shivbag colony</a></li>
+								<li><a href="#" style="color: black;">Ameerpet</a></li>
+								<li><a href="#" style="color: black;">Near metro station</a></li>
+								<li><a href="#" style="color: black;">Hyderabad</a></li>
+								<li><a href="#" style="color: black;">Pin-code:500016</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-3 item">
+							<h3 style="color: black;">Contact:</h3>
+							<ul>
+								<li><a href="9508273547" style="color: black;">Phone:9508273547</a></li>
+								<li><a href="deepakkumarsinghbth9934@gmail.com" style="color: black;">Email:deepakkumarsinghbth9934@gmail.com</a></li>
+
+							</ul>
+						</div>
+						<div class="col-md-6 item text">
+							<h3 style="color: black;">Portfolio Name:</h3>
+							<p style="color: black;">Deepak Singh personal portfolio</p>
+						</div>
+						<div class="col item social"><a href="https://www.facebook.com/profile.php"><i class="icon ion-social-facebook"></i></a><a href="https://t.me/+918284905863"><i class="fa-brands fa-telegram"></i></a><a href="www.linkedin.com/in/Unique-Bihar"><i class="icon ion-social-linkedin"></i></a><a href="https://instagram.com/deepakkumarsinghbth261"><i class="icon ion-social-instagram"></i></a></div>
+            
+       
+					</footer>
+          <div class="foot-panel4">
+            <a href="index.html">Back To Home</a>  
+             </div>
+  
+</body>
